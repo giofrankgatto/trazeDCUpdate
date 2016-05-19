@@ -47,7 +47,7 @@
         <!--trazeDC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="finalProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="traze" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -166,7 +166,7 @@
         <!--Title-->
         <scene sceneID="qTL-r8-RNi">
             <objects>
-                <viewController id="Q3w-Rj-0E8" customClass="LineIssuesViewController" customModule="finalProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Q3w-Rj-0E8" customClass="LineIssuesViewController" customModule="traze" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PHd-oT-Hdx"/>
                         <viewControllerLayoutGuide type="bottom" id="KIh-Nf-uqJ"/>
@@ -194,7 +194,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="8y2-aR-mOK" customClass="LineIssuesCollectionViewCell" customModule="finalProject" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="8y2-aR-mOK" customClass="LineIssuesCollectionViewCell" customModule="traze" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="278"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -375,7 +375,7 @@
         <!--Title-->
         <scene sceneID="xgh-UM-qod">
             <objects>
-                <viewController id="bQG-Fx-bdl" customClass="StationInfoViewController" customModule="finalProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="bQG-Fx-bdl" customClass="StationInfoViewController" customModule="traze" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="maq-dT-R4y"/>
                         <viewControllerLayoutGuide type="bottom" id="9lS-cO-0Zo"/>
@@ -398,7 +398,7 @@
                                     <constraint firstAttribute="height" constant="206" id="fDH-CM-r4A"/>
                                 </constraints>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="67" id="yTm-IR-fDw" customClass="TrainTableViewCell" customModule="finalProject" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="67" id="yTm-IR-fDw" customClass="TrainTableViewCell" customModule="traze" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="600" height="67"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yTm-IR-fDw" id="CaF-hG-hl2">
@@ -507,7 +507,7 @@
                                 <rect key="frame" x="0.0" y="358" width="600" height="250"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="94" id="UGx-Aj-LPH" customClass="StationTableViewCell" customModule="finalProject" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="94" id="UGx-Aj-LPH" customClass="StationTableViewCell" customModule="traze" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="600" height="94"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UGx-Aj-LPH" id="bKL-fg-oKl">
@@ -620,7 +620,7 @@
         <!--Report Issue-->
         <scene sceneID="GC5-EG-IeY">
             <objects>
-                <viewController id="VqN-LP-WFV" customClass="ReportIssueViewController" customModule="finalProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="VqN-LP-WFV" customClass="ReportIssueViewController" customModule="traze" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aN3-BX-IIR"/>
                         <viewControllerLayoutGuide type="bottom" id="mtT-F6-UGw"/>
@@ -810,10 +810,10 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="k5s-Ie-38f">
-                                <rect key="frame" x="20" y="502" width="120" height="90"/>
+                                <rect key="frame" x="20" y="487" width="140" height="105"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="90" id="16s-zG-fEy"/>
-                                    <constraint firstAttribute="width" constant="120" id="OPE-r7-iip"/>
+                                    <constraint firstAttribute="height" constant="105" id="16s-zG-fEy"/>
+                                    <constraint firstAttribute="width" constant="140" id="OPE-r7-iip"/>
                                 </constraints>
                             </imageView>
                         </subviews>

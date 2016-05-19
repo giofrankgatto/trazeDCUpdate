@@ -48,7 +48,7 @@ class LineIssuesViewController: UIViewController, UICollectionViewDataSource, UI
         cell.issueNameLabel.text = (currentIssues["Issue"] as! String)
         
         let formatter = NSDateFormatter()
-        formatter.dateFormat = "hh:ss a"
+        formatter.dateFormat = "hh:mm a"
         let stringDate = formatter.stringFromDate(currentIssues.createdAt!)
         cell.timeReportedLabel.text = stringDate
         
